@@ -4,8 +4,9 @@
              xmlns:local="clr-namespace:BiometriaExemplo"
              x:Class="BiometriaExemplo.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
+	<Label x:Name="lbAutenticado" Text="Vamos autenticar" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+    <Button x:Name="btnAutenticar" Text="Teste de autenticação"></Button>
 
 </ContentPage>
