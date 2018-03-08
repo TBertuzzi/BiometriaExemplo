@@ -1,12 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:BiometriaExemplo"
-             x:Class="BiometriaExemplo.MainPage">
+             x:Class="BiometriaExemplo.MainPage" Padding="0,20,0,0">
 
+    <StackLayout>
+  
 	<Label x:Name="lbAutenticado" Text="Vamos autenticar" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
     <Button x:Name="btnAutenticar" Text="Teste de autenticação"></Button>
+
+  </StackLayout>
 
 </ContentPage>
